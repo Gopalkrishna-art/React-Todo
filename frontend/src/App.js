@@ -7,7 +7,7 @@ const App = () => {
   const [todos, setTodos] = useState([]);
   const [newTask, setNewTask] = useState("");
   const [editingTaskId, setEditingTaskId] = useState(null);
-  const baseUrl = "http://localhost:5000/api/tasks";
+  const baseUrl = "https://react-todo-ot7i.onrender.com/api/tasks";
 
   const fetchTodos = async () => {
     try {
